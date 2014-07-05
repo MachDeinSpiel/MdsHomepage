@@ -1,99 +1,399 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8"/>
-	<title>Webseitenerstellung & Suchmaschinenoptimierung › TENBİ</title>
-	<meta name="description" content="TENBI.de - Suchmaschinenoptimierung (SEO) und preiswerte Webseitenerstellung & Onlineshops. ✓ Gemeinsam bringen wir Ihre Webseite aus Bremen auf Schwung. ✓">
-	<meta name="robots" content="index, follow">
-	<link type="text/css" rel="stylesheet" href="dist/css/bootstrap.min.css">
-	<link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mach Dein Spiel! Ein Baukasten für Spiele und mehr</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/freelancer.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	
+
+	<!-- Image Slide-->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<style type="text/css">
+		<!-- zu Beginn ausgeblendet	-->
+		#imgSlide {display:none;}
+	</style>
+	
 	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-52143257-3', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-</head>
-<body>
-	<div class="container">
-		<div class="row">
-			<div  id="logo">
-				<img src="img/logo_tenbi_2013.png">
-			</div>
-		</div>
-		
-		<div class="row info" style="padding-bottom:140px;">
-			<p style="border-bottom: 1px solid #bd1622; padding-bottom:4px; margin-bottom:8px;">
-				<strong>Onlineshop-Lösungen | SEO | Webdesign | Internetmarketing</strong>
-			</p>
-			<p>
-				Telefon: +49 (0) 176 328 13 139
-			</p>
-			<p> 
-				Email: <a href="mailto:info@tenbi.de">info@tenbi.de</a><br>
-			</p>
-			<p> 
-				Facebook: <a href="https://www.facebook.com/pages/Tenbi/1407364136203915">Tenbi</a><br>
-			</p>
-		</div>
-		
-		
-		<!--<div class="row info" style="text-align:left; float:left; padding-bottom:100px;">
-			<p style="border-bottom: 1px solid #bd1622; padding-top:23px; padding-bottom:3px; margin-bottom:7px;">
-				Über TENBİ
-			</p>
-			<p>
-				Willkommen auf TENBİ. Mein Name ist Recep Subaşoğlu. Ich und mein Kooperationspartner Serkan Erdem sind Studenten an der Hochschule-Bremen und studieren derzeit Medieninformatik. TENBİ wird von uns geleitet.
-			</p>
-			<br/>
-			<p>Wir beschäftigen uns seit 2009 mit Programmierung und Gestaltung. Mit unserem Wissen und Erfahrungen möchten wir Ihnen helfen, im Internet erfolgreich zu werden.
-			</p>
+		$(document).ready(function(){
+			$("#mds-video").on('ended', function() {             
+				$("#imgSlide").delay(1500).fadeIn(3000);
+				$("#overlay-video").fadeOut(1500);				
+			});
 			
-		</div>-->
-		
-		<div class="row info" style="text-align:left; float:left; padding-bottom:50px;">
-			<p style="border-bottom: 1px solid #bd1622; margin-top:-60px; padding-bottom:3px; margin-bottom:7px;">
-				Leistungen
-			</p>
-			<p>
-				Ihren Internetauftritt erhalten Sie exakt zugeschnitten auf Ihre persönlichen Ansprüche und Bedürfnisse. Wir verwirklichen das gemeinsam Schritt für Schritt – dabei werden Sie persönlich und ausführlich von uns beraten. 
-			</p>
-			<br/>
-			<p>Unser Versprechen an Sie:</p>
-			<br/>
-			<p>Nach der Webseitenerstellung können Sie Ihre Seiten auf einfache Art und Weise selbst pflegen (auch ohne Programmier-Erfahrung). Sie bleiben unabhängig und flexibel. Wir zeigen Ihnen, wie es geht. </p>
-			<br/>
-			<p>Wenn Sie für die Pflege wenig Zeit haben, beauftragen Sie uns damit – entweder komplett oder zeitweise. Sie entscheiden jederzeit frei. </p>
-			<br/>
-			<p>Technisch einwandfreie Webseitenerstellung, damit Ihre Besucher Freude an und auf Ihrer Webseite haben </p>
-			<br/>
-			<p>Ganz egal, ob Sie nur eine kleine “Visitenkarte” im Internet, einen Internetshop oder eine große interaktive Firmenvorstellung planen. Sie erhalten von uns eine Internetpräsenz nach bestem technischen Standard – damit alles optimal funktioniert und niemand Ihre Internetpräsenz frustriert verlässt. </p>
-			<br/>
-			<p>
-				+ Responsive Design (Smartphone & Tablet Optimiert)<br/>
-				+ SEO Optimiert (Damit sie auch gefunden werden) <br/>
-				+ Corporate Design (einheitliche Gestaltung)</p>
+		});
+	</script>
+	
+	<script>
+		$(document).ready(function() {
+			$('#myCarousel').carousel({
+				interval:   5000
+			});
+		});
+	</script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+				<table>
+					<tr>
+						<td>
+							<a class="navbar-brand" href="#page-top" id="logo"><img src="img/logo.png" width="28%"></a> <!-- class="navbar-brand" -->
+						</td>
+						<td vertical-align="middle">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</td>
+					</tr>
+				</table>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right"  style="padding-top: 19px;">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#intro-go">Intro</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#hintergrund-go">Hintergrund</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#project-go">Projekt</a>
+                    </li>
+					<!--<li class="page-scroll">
+                        <a href="#portfolio-go">Portfolio</a>
+                    </li>-->
+					<li class="page-scroll">
+                        <a href="#team-go">Team</a>
+                    </li>
+					<!--<li class="page-scroll">
+                        <a href="#contact-go">Kontakt</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+	
+		<div class="container">
+			<div class="row">
+				<div class="span8">
+					<div id="overlay-video" class="flex-video widescreen" style="margin: 0px auto; text-align:center;margin-bottom:12px; margin-top:-45px;">
+						<video id="mds-video" width="100%" height="100%" autoplay="autoplay" style="">
+						  <source src="video/mds.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+						</video>	
+					</div>
+					
+					<div id="imgSlide" style="display:none; padding-top: 13px; margin-top:-45px;">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+						  </ol>
+					 
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+					 
+							<div class="item active">
+							  <img src="http://mds.apertures.de/mds1/img/slides/slide4.jpg">
+							   <div class="carousel-caption">
+								<h3></h3>
+								<!--<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+							  </div>
+							</div><!-- End Item -->
+					 
+							 <div class="item">
+							  <img src="http://mds.apertures.de/mds1/img/slides/slide1.jpg">
+							   <div class="carousel-caption">
+								<!--<h3>Headline</h3>
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+							  </div>
+							</div><!-- End Item -->
+							
+							<div class="item">
+							  <img src="http://mds.apertures.de/mds1/img/slides/slide3.jpg">
+							   <div class="carousel-caption">
+								<!--<h3>Headline</h3>
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+							  </div>
+							</div><!-- End Item -->
+					 
+							<div class="item">
+							  <img src="http://mds.apertures.de/mds1/img/slides/slide2.jpg">
+							   <div class="carousel-caption">
+								<!--<h3>Headline</h3>
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
+							  </div>
+							</div><!-- End Item -->
+						  </div><!-- End Carousel Inner -->
+					 
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+						</div><!-- End Carousel -->
+					</div>
+					
+				</div>
+			</div>  
 		</div>
-		
-		<div class="row info" style="text-align:left; padding-bottom:100px;">
-			<p style="border-bottom: 1px solid #bd1622; padding-bottom:3px; margin-bottom:7px;">
-				Facebook-Seite
-			</p>
-			<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Ftenbi.de&amp;width&amp;height=427&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:427px; width:100%;" allowTransparency="true"></iframe>
-		</div>
-		
-		<div class="row info" style="text-align:left; padding-bottom:100px;">
-			<p style="border-bottom: 1px solid #bd1622; padding-bottom:3px; margin-bottom:7px;">
+    </header>
+	<hr id="intro-go" style="border-top:0.5px; margin-top:0px;">
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Intro</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>Mobile Spiele aus einem App Store herunterladen kann jeder! Wie wäre es, wenn Du Deine eigenen mobilen Spiele bauen könntest?<br><br>„Mach Dein Spiel!“ unterstützt Dich dabei!
+Der Baukasten „Mach Dein Spiel!“, entstanden im gleichnamigen Bachelor-Projekt des Studiengangs Medieninformatik an der Hochschule Bremen, ermöglicht es Dir, ohne technisches Hintergrundwissen ortsbasierte mobile Spiele zu entwickeln.
+<br><br>In ortsbasierten mobilen Spielen wird der aktuelle Aufenthaltsort eines Spielers zu einem das Spielgeschehen beeinflussenden Faktor: der</p>
+				</div>
+				<div class="col-sm-6">
+					<p>Spieler bewegt  sich in der „echten“ Welt, die um virtuelle Inhalte wie z.B. bedeutsame Orte oder Schätze angereichert wurde.
+					In dieser gemischten Realität kann er mit anderen Spielern und virtuellen Inhalten interagieren.<br><br>Wie auch in klassischen Spielen lenken Regeln den Spielablauf. 
+Deine Aufgabe als Spiele-Autor ist es, diese gemischte Realität zu erzeugen, indem Du mit Hilfe des Autorenwerkzeugs unseres Baukastens die Regeln und virtuellen Inhalte Deines Spiels festlegst.</p>
+				</div>
+			</div>
+        </div>
+    </section>
+	<hr id="hintergrund-go">
+    <section id="hintergrund">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hintergrund</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-sm-4">
+					<p>In Spielen (aber auch in „serious games“) wird das Verhalten von Komponenten (z.B. non-player-character, NPCs) gerne durch endliche Automaten abstrakt beschrieben und durch sogenannte Game Engines interpretiert und ausgeführt.  </p>
+				</div>
+				<div class="col-sm-4">
+					<p>Spiele-Autoren müssen lediglich das Spieler- und Systemverhalten in einer abstrakten Beschreibungssprache (z.B. auf Basis von XML) oder - noch einfacher - durch spezielle visuelle Editoren festlegen, um damit das Gameplay zu spezifizieren.</p>
+				</div>
+				<div class="col-sm-4">
+					<p>Im Bachelor-Projekt „Mach Dein Spiel!“ des Bachelor-Studiengangs Medieninformatik an der Hochschule Bremen wurde ein auf diesem Ansatz basierender Spiele-Baukasten zur visuellen Spezifikation und Ausführung mobiler Spiele entwickelt.</p>
+				</div>
+			</div>
+        </div>
+    </section>
+	<hr id="project-go">
+	<section id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projekt</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-sm-6 home-item">
+					<p>Ziel des Projekts „Mach Dein Spiel!“ war es, einen Baukasten für die Spezifikation und Ausführung mobiler Spiele zu konzipieren und realisieren, der zwecks Beschreibung des Verhaltens auf endlichen Automaten bzw. der erweiterten Notation der UML State Machines aufsetzt: Spieler sind während des Gameplays in einem von mehreren Zuständen (z.B. „wartend auf Mitspieler“, „auf der Suche“, „im Kampfmodus“) und können ausgelöst durch Ereignisse wie z.B. die Gegenwart eines Mitspielers, das Betreten eines speziellen Ortes oder das Anklicken eines Buttons mittels bedingter Transitionen in einen anderen Zustand wechseln. <br><br>Das Spiel reagiert auf Ereignisse sowie den aktuellen Zustand eines Spielers durch die Ausführung von Aktionen wie z.B. die Reduzierung von Lebensenergie, das Aufnehmen einer Tarnkappe oder die Ausgabe medialer Inhalte. </p>
+				</div>
+				<div class="col-sm-6 home-item">
+					<p>Im Rahmen des Projekts wurde eine prototypische Entwicklungs- und Ausführungsumgebung für mobile Spiele geschaffen, die folgende Komponenten umfasst:</p>
+						<ul style="font-size:18px;">
+							<li style="padding-bottom:12px;">Autorenwerkzeug zur Spezifikation mobiler Spiele</li>
+							<li style="padding-bottom:12px;">Mobiler Client (Android) mit Interpreter-Komponente für Spielspezifikationen</li>
+							<li style="padding-bottom:12px;">Server zur Verwaltung von Spielen und für die Kommunikation zwischen Spielern</li>
+							<li style="padding-bottom:12px;">Web-basiertes Monitoring-Werkzeug zur Beobachtung laufender Spiele</li>
+						</ul>
+						<p>Die Projektergebnisse ermöglichen die Spezifikation einfacher mehrspielerfähiger ortsbasierter mobiler Spiele, in denen die Spieler mit virtuellen Objekten interagieren können. </p>
+				</div>
+			</div>
+        </div>
+    </section>
+	<hr id="team-go">
+	<section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Team</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-sm-4 portfolio-item">
+                   
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"><strong>PPROJEKTBETREUER</strong><br>Spielleiter, Berater und Ideengeber in zwei Personen. Initiatoren, Antreiber, Kunden, Kritiker, DJH-Kick-Off-Organisatoren, 
+															Besserwisser, An-die-Studis-Glaubende, Wissenschaftler, Pragmatiker, Kick-Off-Organisatoren, Lernprozess-Begleiter</p>
+                            </div>
+                        </div>
+                        <img src="img/team/PROFS.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                   
+                </div>
+			</div>
+			<div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+								<p style="color:white; padding:10px;"> <strong>SPEZIFIKATION</strong> <br>Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!</p> <p>Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!</p>
+                            </div>
+                        </div>
+                        <img src="img/team/SPEZIFIKATION.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"> <strong>PARSER</strong><br>Der Parser parst alle Spielinformationen, welche in mehreren JSON-Dateien eingetragen sind. </p><p>Anhand den geparsten Informationen werden dementsprechend Objekte erstellt, welche anschließend an die Interpreter weitergegeben werden.</p>
+                            </div>
+                        </div>
+                        <img src="img/team/PARSER.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"><strong>INTERPRETER</strong><br>Der Interpreter steuert das Spiel und verwaltet den Spielautomaten. Dabei verarbeitet er Aktionen der Nutzer.</p>
+																	<strong>AUTORENWERKZEUG</strong><br><p>Mit dem Autorenwerkzeug kann der Autor den Spielautomaten in einer graphischen Oberfläche erstellen.</p>
+                            </div>
+                        </div>
+                        <img src="img/team/INTERPRETER.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"> <strong>SERVER:</strong> Der Spiele-Server wurde in Java geschrieben und kommuniziert bidirektional mit der Android App (Client) über WebSockets. Das Austauschformat zwischen Client und Server basiert auf JSON. Damit ist die Kommunikation leicht erweiterbar - es können zusätzliche Plattformen, wie das browser-basierte Monitoring Tool eingebunden werden</p>
+                            </div>
+                        </div>
+                        <img src="img/team/SERVER.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"> <strong>ANDROID</strong> <br>Die Gruppe Android war für die Realisierung des moblilen Spieleclients verantwortlich. Zu den Aufgabegebieten gehörte die Vermittlung zwischen dem Interpreter und dem Server, sowie die Erstellung des grafischen Userinferfaces.</p>
+                            </div>
+                        </div>
+                        <img src="img/team/ANDROID.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p style="color:white; padding:10px;"> <strong>MONITORING-TOOL</strong> <br> Hello World! Hello World! Hello World! Hello World! Hello World! Hello World!</p>
+                            </div>
+                        </div>
+                        <img src="img/team/MONITORING.jpg" class="img-responsive" alt="" />
+                    </a>
+                </div>
 				
-			</p>
-			<p>Copyright © 2014 TENBİ. All rights reserved.</p>
-		</div>
-		
-	</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Impressum</h3>
+                        <p>Prof. Dr. Helmut Eirund<br><a style="color:#9d9d9d">helmut.eirund@hs-bremen.de</a></p>
+                            <p>Prof. Dr. Thorsten Teschke<br><a style="color:#9d9d9d">thorsten.teschke@hs-bremen.de</a><br></p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Über uns</h3>
+						
+                        <p>Wir sind Medieninformatik-Studenten aus dem Studienjahrgang 2012 an<br>der Hochschule Bremen.</p>
+						
+                    </div>
+					<div class="footer-col col-md-4">
+					<br><br>
+                        <p><img src="img/logo.png" width="58%"></p>
+						<p style="font-size:14px;">Ein Projekt von:<br><img src="img/hsbremen.jpg" width="58%"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; 2014 - Mach Dein Spiel
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/freelancer.js"></script>
+
 </body>
+
 </html>
